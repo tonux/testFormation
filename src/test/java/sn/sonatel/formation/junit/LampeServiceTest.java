@@ -26,10 +26,7 @@ public class LampeServiceTest {
     }
 
 
-    @Test(expected= ExceptionLampeDejaEteinteException.class)
-    public void ifEteindreLampeDejaEtein(){
-        lampeService.eteindreToutesLesLampes();
-    }
+
 
 
 

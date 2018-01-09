@@ -45,7 +45,7 @@ public class PromotionBusinessTest {
         assertTrue(promoBusiness.AppliquerRemise("AProduit", 1000.0) == 0);
     }
 
-    @Test (expected = IllegalArgumentException.class)
+    @Test (expected = NullPointerException.class)
     public void throwsExceptionWhenNegativePrice(){
 
         assertTrue(promoBusiness.AppliquerRemise("AProduit", -1000.0) == 0 );
