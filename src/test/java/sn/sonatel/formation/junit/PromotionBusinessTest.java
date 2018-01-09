@@ -45,6 +45,7 @@ public class PromotionBusinessTest {
         assertTrue(promoBusiness.AppliquerRemise("AProduit", 1000.0) == 0);
     }
 
+    /*
     @Test (expected = NullPointerException.class)
     public void throwsExceptionWhenNegativePrice(){
 
@@ -57,11 +58,14 @@ public class PromotionBusinessTest {
         assertTrue(promoBusiness.AppliquerRemise(null, -1000.0) == 0 );
     }
 
+
+
     @Test
     public void ifPriceMoreThan500(){
 
         assertTrue(promoBusiness.AppliquerRemise(null, 1000.0) == 200 );
     }
+    */
 
     @Test
     public void mustReturnMaxPrix(){
